@@ -7,4 +7,4 @@ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.
 repo sync -f --force-broken --no-tags --no-clone-bundle
 git clone https://github.com/Skyrimus/twrp_device_porridge.git device/wileyfox/porridge/
 . build/envsetup.sh && lunch omni_porridge-userdebug && make recoveryimage -j5
-cp /omni/out/target/product/porridge/recovery.img /sources/recovery.img
+cp /sources/omni/out/target/product/porridge/recovery.img /sources/recovery.img
