@@ -1,4 +1,4 @@
-mkdir build
+mkdir -p build
 cd /build
 add-apt-repository ppa:openjdk-r/ppa 
 apt-get update 
