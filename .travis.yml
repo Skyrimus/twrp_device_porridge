@@ -17,5 +17,3 @@ deploy:
   api_key: $OAUTH_KEY
   file: $FILE_TO_UPLOAD
   skip_cleanup: true
-  on:
-    tags: true
