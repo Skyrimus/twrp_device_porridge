@@ -10,7 +10,7 @@ script:
   - docker run -v $(pwd):/sources -w /sources skyrimus/twrp-build:latest /bin/bash -c "bash build-with-travis.sh"
 
 before_deploy:
-  - export FILE_TO_UPLOAD="$(pwd)/recovery.img"
+  - export FILE_TO_UPLOAD="/sources/recovery.img"
 
 deploy:
   provider: releases
